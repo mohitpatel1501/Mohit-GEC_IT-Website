@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: 'Roboto Flex', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+
+.header_center h1{
+    font-size: 2.3em;
+    margin:15px 0;
+    color: rgb(31, 31, 159);
+}
+
+.header_left img{
+    width: 100px;
+    height: 90px;
+}
+
+.navbar{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(31, 31, 159);
+    border-radius: 40px;
+    width: 90%;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+
+.navbar .right ul{
+    display: flex;
+    gap: 30px;
+    margin: 15px 0;
+}
+
+.navbar .right ul li{
+    list-style: none;
+    border: 1px solid aliceblue;
+    width: 10em;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+.navbar .right ul a{
+    text-decoration: none;
+    color: white;
+}
+
+.header{
+    width: 600px;
+    margin: 25px auto;
+}
+
+.header h1{
+    font-size: 2em;
+    text-align: center;
+    color: rgb(31, 31, 159);
+}
+
+.programme,.about_section,.vision_section,.mission_section,.peos_section,.pso_section{
+    padding: 0 50px;
+    text-align: justify;
+}
+
+.programme h3{
+    margin-bottom: 15px;
+    color: rgb(31, 31, 159);
+    /* background-color: rgb(31, 31, 159); */
+}
+table{
+    margin-top: 10px;
+}
+table tr td{
+    padding: 4px 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+h3{
+    margin: 25px 0 10px 0;
+    font-size: 30px;
+    color: rgb(31, 31, 159);
+}
+
+.para{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.about_section ul ,.vision_section ul ,.mission_section ul ,.peos_section ul ,.pso_section ul{
+    margin: 10px 10px 0 30px;
+}
+
+.about_section ul li ,.vision_section ul li ,.mission_section ul li ,.peos_section ul li ,.pso_section ul li{
+    margin-bottom: 10px;
+}
+
+footer{
+    color: white;
+    background-color: rgb(31, 31, 159);
+    text-align: center;
+    padding: 15px 0;
+}
